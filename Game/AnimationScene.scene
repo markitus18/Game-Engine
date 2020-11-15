@@ -1,0 +1,3313 @@
+{
+    "FileSystem": {},
+    "Window": {},
+    "Camera": {
+        "Position": [
+            -8.082439,
+            6.996660,
+            17.682167
+        ],
+        "Reference": [
+            0.043635,
+            1.237403,
+            -0.402503
+        ]
+    },
+    "Editor": {},
+    "Input": {},
+    "Audio": {},
+    "Scene": {
+        "GameObjects": [
+            {
+                "UID": 1741440887,
+                "ParentUID": 0,
+                "Name": "Camera",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    10,
+                    10,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 4,
+                        "FOV": 57.295780,
+                        "NearPlane": 0.100000,
+                        "FarPlane": 1000,
+                        "HasResource": false
+                    }
+                ]
+            },
+            {
+                "UID": 803244092,
+                "ParentUID": 0,
+                "Name": "Street_environment_V01",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 5,
+                        "Playing": false,
+                        "Animations": [
+                            {
+                                "Name": "Default",
+                                "Loopable": false,
+                                "StartFrame": 0,
+                                "EndFrame": 26,
+                                "TicksPerSecond": 24,
+                                "CurrentAnimation": false
+                            }
+                        ],
+                        "HasResource": true,
+                        "Type": 3,
+                        "ID": 55,
+                        "ResourceName": "Take 001"
+                    }
+                ]
+            },
+            {
+                "UID": 35277605,
+                "ParentUID": 803244092,
+                "Name": "Sky001",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    18.153732,
+                    0,
+                    58.960911
+                ],
+                "Rotation": [
+                    -1,
+                    0,
+                    0,
+                    0
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    }
+                ]
+            },
+            {
+                "UID": 1488329184,
+                "ParentUID": 803244092,
+                "Name": "Dummy001",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": true,
+                "Translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    -0.707107,
+                    0,
+                    0,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    }
+                ]
+            },
+            {
+                "UID": 732667867,
+                "ParentUID": 1488329184,
+                "Name": "City_building_004",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -41.475891,
+                    21.014099,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 3,
+                        "ResourceName": "City_building_004"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 4,
+                        "ResourceName": "06 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 2037984863,
+                "ParentUID": 1488329184,
+                "Name": "City_building_001",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    17.707165,
+                    20.053276,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 6,
+                        "ResourceName": "City_building_001"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 7,
+                        "ResourceName": "Building_dnt"
+                    }
+                ]
+            },
+            {
+                "UID": 152105986,
+                "ParentUID": 1488329184,
+                "Name": "City_building_007",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    16.010492,
+                    37.493286,
+                    -0.000002
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 9,
+                        "ResourceName": "City_building_007"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 10,
+                        "ResourceName": "building_16"
+                    }
+                ]
+            },
+            {
+                "UID": 528987949,
+                "ParentUID": 1488329184,
+                "Name": "City_building_008",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    40.979996,
+                    18.270824,
+                    -0.000002
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 12,
+                        "ResourceName": "City_building_008"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 13,
+                        "ResourceName": "building_025"
+                    }
+                ]
+            },
+            {
+                "UID": 1472934926,
+                "ParentUID": 1488329184,
+                "Name": "Line002",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -2.159772,
+                    1.853838,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 15,
+                        "ResourceName": "Line002"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 16,
+                        "ResourceName": "20 - Defaulta"
+                    }
+                ]
+            },
+            {
+                "UID": 563371502,
+                "ParentUID": 1488329184,
+                "Name": "Plane001",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -0.028603,
+                    0.026032,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    0.996635,
+                    0.970616,
+                    0.996635
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 17,
+                        "ResourceName": "Plane001"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 18,
+                        "ResourceName": "20 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 846011934,
+                "ParentUID": 1488329184,
+                "Name": "City_building_010",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": true,
+                "Translation": [
+                    25.154011,
+                    -39.153721,
+                    0.000001
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    }
+                ]
+            },
+            {
+                "UID": 1162870745,
+                "ParentUID": 846011934,
+                "Name": "City_building_010_submesh",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 19,
+                        "ResourceName": "City_building_010_submesh"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 20,
+                        "ResourceName": "orig_orig_orig_17 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 90645745,
+                "ParentUID": 846011934,
+                "Name": "City_building_010_submesh(1)",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 22,
+                        "ResourceName": "City_building_010_submesh(1)"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 20,
+                        "ResourceName": "orig_orig_orig_17 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 1540457759,
+                "ParentUID": 1488329184,
+                "Name": "City_building_011",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    30.134541,
+                    37.493286,
+                    -0.000002
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 23,
+                        "ResourceName": "City_building_011"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 10,
+                        "ResourceName": "building_16"
+                    }
+                ]
+            },
+            {
+                "UID": 728824512,
+                "ParentUID": 1488329184,
+                "Name": "City_building_013",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -42.288055,
+                    33.201576,
+                    0.000001
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 24,
+                        "ResourceName": "City_building_013"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 25,
+                        "ResourceName": "3db _ building 06"
+                    }
+                ]
+            },
+            {
+                "UID": 747738636,
+                "ParentUID": 1488329184,
+                "Name": "City_building_014",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -19.439707,
+                    32.061729,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 27,
+                        "ResourceName": "City_building_014"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 4,
+                        "ResourceName": "06 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 1160490029,
+                "ParentUID": 1488329184,
+                "Name": "City_building_016",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    34.270424,
+                    -41.972748,
+                    0.000001
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    }
+                ]
+            },
+            {
+                "UID": 1846541575,
+                "ParentUID": 1160490029,
+                "Name": "City_building_016_submesh",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 28,
+                        "ResourceName": "City_building_016_submesh"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 20,
+                        "ResourceName": "orig_orig_orig_17 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 1109949067,
+                "ParentUID": 1160490029,
+                "Name": "City_building_016_submesh(1)",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 29,
+                        "ResourceName": "City_building_016_submesh(1)"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 20,
+                        "ResourceName": "orig_orig_orig_17 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 712439959,
+                "ParentUID": 1488329184,
+                "Name": "City_building_017",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": true,
+                "Translation": [
+                    44.260082,
+                    -39.153721,
+                    0.000001
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    }
+                ]
+            },
+            {
+                "UID": 352590780,
+                "ParentUID": 712439959,
+                "Name": "City_building_017_submesh",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 30,
+                        "ResourceName": "City_building_017_submesh"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 20,
+                        "ResourceName": "orig_orig_orig_17 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 1984609170,
+                "ParentUID": 712439959,
+                "Name": "City_building_017_submesh(1)",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 31,
+                        "ResourceName": "City_building_017_submesh(1)"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 20,
+                        "ResourceName": "orig_orig_orig_17 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 1377176590,
+                "ParentUID": 1488329184,
+                "Name": "City_building_022",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -20.831324,
+                    -27.426489,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 32,
+                        "ResourceName": "City_building_022"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 33,
+                        "ResourceName": "09 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 1708984781,
+                "ParentUID": 1488329184,
+                "Name": "City_building_023",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    42.130642,
+                    37.493286,
+                    -0.000002
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 35,
+                        "ResourceName": "City_building_023"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 10,
+                        "ResourceName": "building_16"
+                    }
+                ]
+            },
+            {
+                "UID": 2045459613,
+                "ParentUID": 1488329184,
+                "Name": "City_building_024",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -20.572771,
+                    43.060829,
+                    -0.069194
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 36,
+                        "ResourceName": "City_building_024"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 13,
+                        "ResourceName": "building_025"
+                    }
+                ]
+            },
+            {
+                "UID": 860633162,
+                "ParentUID": 1488329184,
+                "Name": "City_building_026",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    31.511889,
+                    -16.446016,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 37,
+                        "ResourceName": "City_building_026"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 33,
+                        "ResourceName": "09 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 1200136655,
+                "ParentUID": 1488329184,
+                "Name": "City_building_028",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    13.387990,
+                    -33.755039,
+                    -0.000001
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 38,
+                        "ResourceName": "City_building_028"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 39,
+                        "ResourceName": "Material #0"
+                    }
+                ]
+            },
+            {
+                "UID": 420320279,
+                "ParentUID": 1488329184,
+                "Name": "Object010",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -2.503353,
+                    15.800846,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 41,
+                        "ResourceName": "Object010"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 42,
+                        "ResourceName": "21 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 1505970237,
+                "ParentUID": 1488329184,
+                "Name": "City_building_030",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -42.807240,
+                    -41.835564,
+                    -0.000001
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 43,
+                        "ResourceName": "City_building_030"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 39,
+                        "ResourceName": "Material #0"
+                    }
+                ]
+            },
+            {
+                "UID": 559772696,
+                "ParentUID": 1488329184,
+                "Name": "City_building_031",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -34.679482,
+                    -41.835564,
+                    -0.000001
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 44,
+                        "ResourceName": "City_building_031"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 39,
+                        "ResourceName": "Material #0"
+                    }
+                ]
+            },
+            {
+                "UID": 1549126107,
+                "ParentUID": 1488329184,
+                "Name": "City_building_032",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -29.478403,
+                    21.014099,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 45,
+                        "ResourceName": "City_building_032"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 4,
+                        "ResourceName": "06 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 784975813,
+                "ParentUID": 1488329184,
+                "Name": "City_building_033",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -32.361496,
+                    42.370422,
+                    0.000001
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 46,
+                        "ResourceName": "City_building_033"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 25,
+                        "ResourceName": "3db _ building 06"
+                    }
+                ]
+            },
+            {
+                "UID": 1637228017,
+                "ParentUID": 1488329184,
+                "Name": "City_building_034",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    16.049517,
+                    -16.696884,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 47,
+                        "ResourceName": "City_building_034"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 33,
+                        "ResourceName": "09 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 1314756091,
+                "ParentUID": 1488329184,
+                "Name": "City_building_035",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    13.387990,
+                    -40.802517,
+                    -0.000001
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 48,
+                        "ResourceName": "City_building_035"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 39,
+                        "ResourceName": "Material #0"
+                    }
+                ]
+            },
+            {
+                "UID": 290841783,
+                "ParentUID": 1488329184,
+                "Name": "City_building_036",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -31.216331,
+                    33.201576,
+                    0.000001
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 49,
+                        "ResourceName": "City_building_036"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 25,
+                        "ResourceName": "3db _ building 06"
+                    }
+                ]
+            },
+            {
+                "UID": 72466680,
+                "ParentUID": 1488329184,
+                "Name": "City_building_037",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -20.317694,
+                    -16.163609,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 50,
+                        "ResourceName": "City_building_037"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 33,
+                        "ResourceName": "09 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 763641477,
+                "ParentUID": 1488329184,
+                "Name": "City_building_038",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -41.649002,
+                    -16.495394,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 51,
+                        "ResourceName": "City_building_038"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 33,
+                        "ResourceName": "09 - Default"
+                    }
+                ]
+            },
+            {
+                "UID": 230621438,
+                "ParentUID": 1488329184,
+                "Name": "City_building_039",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -42.807240,
+                    -30.643888,
+                    -0.000001
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 52,
+                        "ResourceName": "City_building_039"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 39,
+                        "ResourceName": "Material #0"
+                    }
+                ]
+            },
+            {
+                "UID": 1507390026,
+                "ParentUID": 1488329184,
+                "Name": "City_building_040",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -34.679482,
+                    -30.643888,
+                    -0.000001
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 53,
+                        "ResourceName": "City_building_040"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 39,
+                        "ResourceName": "Material #0"
+                    }
+                ]
+            },
+            {
+                "UID": 622654903,
+                "ParentUID": 1488329184,
+                "Name": "City_building_041",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    30.695278,
+                    21.612646,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0.707107,
+                    0.707107
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 54,
+                        "ResourceName": "City_building_041"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 7,
+                        "ResourceName": "Building_dnt"
+                    }
+                ]
+            },
+            {
+                "UID": 752103421,
+                "ParentUID": 803244092,
+                "Name": "Camera001",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -78.312431,
+                    45.251217,
+                    -97.031113
+                ],
+                "Rotation": [
+                    0.049340,
+                    0.932287,
+                    0.139331,
+                    -0.330140
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    }
+                ]
+            },
+            {
+                "UID": 98508640,
+                "ParentUID": 803244092,
+                "Name": "Camera001.Target",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -28.132622,
+                    20.873329,
+                    -35.064213
+                ],
+                "Rotation": [
+                    0.049340,
+                    0.932287,
+                    0.139331,
+                    -0.330140
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    }
+                ]
+            },
+            {
+                "UID": 1354740569,
+                "ParentUID": 803244092,
+                "Name": "Spot001",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -66.721268,
+                    141.934128,
+                    0.000006
+                ],
+                "Rotation": [
+                    -0.690035,
+                    -0.154439,
+                    -0.690035,
+                    0.154439
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    }
+                ]
+            },
+            {
+                "UID": 911378109,
+                "ParentUID": 803244092,
+                "Name": "Spot001.Target",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    28.890945,
+                    -60.963882,
+                    -0.000003
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    }
+                ]
+            },
+            {
+                "UID": 1503492427,
+                "ParentUID": 0,
+                "Name": "aniTest",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": true,
+                "Translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "Scale": [
+                    0.100000,
+                    0.100000,
+                    0.100000
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 5,
+                        "Playing": true,
+                        "Animations": [
+                            {
+                                "Name": "Default",
+                                "Loopable": true,
+                                "StartFrame": 0,
+                                "EndFrame": 49,
+                                "TicksPerSecond": 24,
+                                "CurrentAnimation": true
+                            },
+                            {
+                                "Name": "Default1",
+                                "Loopable": true,
+                                "StartFrame": 50,
+                                "EndFrame": 72,
+                                "TicksPerSecond": 24,
+                                "CurrentAnimation": false
+                            },
+                            {
+                                "Name": "Default2",
+                                "Loopable": false,
+                                "StartFrame": 73,
+                                "EndFrame": 138,
+                                "TicksPerSecond": 24,
+                                "CurrentAnimation": false
+                            }
+                        ],
+                        "HasResource": true,
+                        "Type": 3,
+                        "ID": 60,
+                        "ResourceName": "Take 001"
+                    }
+                ]
+            },
+            {
+                "UID": 1998338093,
+                "ParentUID": 1503492427,
+                "Name": "Object02",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    -0.707107,
+                    0,
+                    0,
+                    0.707107
+                ],
+                "Scale": [
+                    2.540000,
+                    2.540000,
+                    2.540000
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 2,
+                        "HasResource": true,
+                        "Type": 0,
+                        "ID": 57,
+                        "ResourceName": "Object02"
+                    },
+                    {
+                        "ComponentType": 3,
+                        "HasResource": true,
+                        "Type": 2,
+                        "ID": 58,
+                        "ResourceName": "lambert2"
+                    }
+                ]
+            },
+            {
+                "UID": 1568301858,
+                "ParentUID": 1503492427,
+                "Name": "transform1",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -1.116104,
+                    15.688704,
+                    -0.138407
+                ],
+                "Rotation": [
+                    -0.448792,
+                    -0.330551,
+                    -0.448005,
+                    0.699009
+                ],
+                "Scale": [
+                    2.540000,
+                    2.540000,
+                    2.540000
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    }
+                ]
+            },
+            {
+                "UID": 85107750,
+                "ParentUID": 1568301858,
+                "Name": "Bip001 Pelvis",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    -0.500000,
+                    -0.500000,
+                    -0.500000,
+                    0.500000
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 71,
+                        "ResourceName": "Bip001 Pelvis"
+                    }
+                ]
+            },
+            {
+                "UID": 379280677,
+                "ParentUID": 85107750,
+                "Name": "Bip001 Spine",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.627852,
+                    0.318001,
+                    0
+                ],
+                "Rotation": [
+                    -0.000002,
+                    -0.000001,
+                    0.000398,
+                    1
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 72,
+                        "ResourceName": "Bip001 Spine"
+                    }
+                ]
+            },
+            {
+                "UID": 441089905,
+                "ParentUID": 379280677,
+                "Name": "Bip001 Spine1",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    1.798031,
+                    -0.001359,
+                    -0.000495
+                ],
+                "Rotation": [
+                    0.195421,
+                    -0.149881,
+                    0.324897,
+                    0.913120
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 73,
+                        "ResourceName": "Bip001 Spine1"
+                    }
+                ]
+            },
+            {
+                "UID": 104123905,
+                "ParentUID": 441089905,
+                "Name": "Bip001 Neck",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    2.997202,
+                    -0.234361,
+                    0
+                ],
+                "Rotation": [
+                    -0.031274,
+                    0.199826,
+                    0.152198,
+                    0.967433
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 94,
+                        "ResourceName": "Bip001 Neck"
+                    }
+                ]
+            },
+            {
+                "UID": 1453081380,
+                "ParentUID": 104123905,
+                "Name": "Bip001 L Clavicle",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -0.455274,
+                    -0.096788,
+                    0.797643
+                ],
+                "Rotation": [
+                    0.314116,
+                    -0.103876,
+                    0.936518,
+                    0.116079
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 62,
+                        "ResourceName": "Bip001 L Clavicle"
+                    }
+                ]
+            },
+            {
+                "UID": 1319114104,
+                "ParentUID": 1453081380,
+                "Name": "Bip001 L UpperArm",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.986254,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    -0.244845,
+                    0.320889,
+                    -0.128541,
+                    0.905847
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 61,
+                        "ResourceName": "Bip001 L UpperArm"
+                    }
+                ]
+            },
+            {
+                "UID": 904870629,
+                "ParentUID": 1319114104,
+                "Name": "Bip001 L Forearm",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    2.375838,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.327701,
+                    0.944781
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 63,
+                        "ResourceName": "Bip001 L Forearm"
+                    }
+                ]
+            },
+            {
+                "UID": 1565276864,
+                "ParentUID": 904870629,
+                "Name": "Bip001 L Hand",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    1.846415,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    -0.182656,
+                    0.041463,
+                    0.100543,
+                    0.977143
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 64,
+                        "ResourceName": "Bip001 L Hand"
+                    }
+                ]
+            },
+            {
+                "UID": 2082881529,
+                "ParentUID": 1565276864,
+                "Name": "Bip001 L Finger0",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.940946,
+                    0.081812,
+                    -0.580381
+                ],
+                "Rotation": [
+                    0.582628,
+                    0.394046,
+                    0.071983,
+                    0.707171
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 68,
+                        "ResourceName": "Bip001 L Finger0"
+                    }
+                ]
+            },
+            {
+                "UID": 1314183187,
+                "ParentUID": 2082881529,
+                "Name": "Bip001 L Finger01",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.517244,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0.078393,
+                    0.996923
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 69,
+                        "ResourceName": "Bip001 L Finger01"
+                    }
+                ]
+            },
+            {
+                "UID": 1206881692,
+                "ParentUID": 1314183187,
+                "Name": "Bip001 L Finger02",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.304696,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0.172682,
+                    0.984978
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 70,
+                        "ResourceName": "Bip001 L Finger02"
+                    }
+                ]
+            },
+            {
+                "UID": 1865106210,
+                "ParentUID": 1565276864,
+                "Name": "Bip001 L Finger1",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    1.770775,
+                    0.000361,
+                    -0.041459
+                ],
+                "Rotation": [
+                    -0.086713,
+                    -0.063716,
+                    0.196425,
+                    0.974597
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 65,
+                        "ResourceName": "Bip001 L Finger1"
+                    }
+                ]
+            },
+            {
+                "UID": 813246908,
+                "ParentUID": 1865106210,
+                "Name": "Bip001 L Finger11",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.341537,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    -0.080334,
+                    -0.021903,
+                    0.262140,
+                    0.961431
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 66,
+                        "ResourceName": "Bip001 L Finger11"
+                    }
+                ]
+            },
+            {
+                "UID": 656628713,
+                "ParentUID": 813246908,
+                "Name": "Bip001 L Finger12",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.252604,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    -0.079599,
+                    -0.024440,
+                    0.292494,
+                    0.952635
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 67,
+                        "ResourceName": "Bip001 L Finger12"
+                    }
+                ]
+            },
+            {
+                "UID": 1663234084,
+                "ParentUID": 104123905,
+                "Name": "Bip001 R Clavicle",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.267881,
+                    -0.097360,
+                    -0.878430
+                ],
+                "Rotation": [
+                    -0.639018,
+                    -0.064630,
+                    0.745032,
+                    0.180019
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 78,
+                        "ResourceName": "Bip001 R Clavicle"
+                    }
+                ]
+            },
+            {
+                "UID": 1554432277,
+                "ParentUID": 1663234084,
+                "Name": "Bip001 R UpperArm",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.986254,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0.471325,
+                    -0.337544,
+                    -0.107370,
+                    0.807706
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 79,
+                        "ResourceName": "Bip001 R UpperArm"
+                    }
+                ]
+            },
+            {
+                "UID": 838650099,
+                "ParentUID": 1554432277,
+                "Name": "Bip001 R Forearm",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    2.375838,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.272294,
+                    0.962214
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 84,
+                        "ResourceName": "Bip001 R Forearm"
+                    }
+                ]
+            },
+            {
+                "UID": 1873147843,
+                "ParentUID": 838650099,
+                "Name": "Bip001 R Hand",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    1.846414,
+                    -0.000001,
+                    0
+                ],
+                "Rotation": [
+                    0.560236,
+                    0.069631,
+                    0.169535,
+                    0.807802
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 85,
+                        "ResourceName": "Bip001 R Hand"
+                    }
+                ]
+            },
+            {
+                "UID": 186546134,
+                "ParentUID": 1873147843,
+                "Name": "Bip001 R Finger0",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.940946,
+                    0.081812,
+                    0.580381
+                ],
+                "Rotation": [
+                    -0.553193,
+                    -0.344939,
+                    0.191452,
+                    0.733717
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 86,
+                        "ResourceName": "Bip001 R Finger0"
+                    }
+                ]
+            },
+            {
+                "UID": 1694781805,
+                "ParentUID": 186546134,
+                "Name": "Bip001 R Finger01",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.517245,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0.233381,
+                    0.972385
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 91,
+                        "ResourceName": "Bip001 R Finger01"
+                    }
+                ]
+            },
+            {
+                "UID": 1062545137,
+                "ParentUID": 1694781805,
+                "Name": "Bip001 R Finger02",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.304696,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0.172681,
+                    0.984978
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 88,
+                        "ResourceName": "Bip001 R Finger02"
+                    }
+                ]
+            },
+            {
+                "UID": 1085794868,
+                "ParentUID": 1873147843,
+                "Name": "Bip001 R Finger1",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    1.770776,
+                    0.000361,
+                    0.041459
+                ],
+                "Rotation": [
+                    0.005108,
+                    0.198577,
+                    0.394997,
+                    0.896950
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 89,
+                        "ResourceName": "Bip001 R Finger1"
+                    }
+                ]
+            },
+            {
+                "UID": 552646981,
+                "ParentUID": 1085794868,
+                "Name": "Bip001 R Finger11",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.341537,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0.426589,
+                    0.904445
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 90,
+                        "ResourceName": "Bip001 R Finger11"
+                    }
+                ]
+            },
+            {
+                "UID": 1518444549,
+                "ParentUID": 552646981,
+                "Name": "Bip001 R Finger12",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.252603,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0.538307,
+                    0.842749
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 87,
+                        "ResourceName": "Bip001 R Finger12"
+                    }
+                ]
+            },
+            {
+                "UID": 1450455060,
+                "ParentUID": 104123905,
+                "Name": "Bip001 Head",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    1.101905,
+                    -0.000001,
+                    0
+                ],
+                "Rotation": [
+                    -0.331613,
+                    -0.046233,
+                    -0.461536,
+                    0.821511
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 92,
+                        "ResourceName": "Bip001 Head"
+                    }
+                ]
+            },
+            {
+                "UID": 1008199379,
+                "ParentUID": 1450455060,
+                "Name": "Bone001",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.192795,
+                    0.020197,
+                    -0.000001
+                ],
+                "Rotation": [
+                    0.587548,
+                    0.808784,
+                    0.020709,
+                    0.015043
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 93,
+                        "ResourceName": "Bone001"
+                    }
+                ]
+            },
+            {
+                "UID": 1345963164,
+                "ParentUID": 379280677,
+                "Name": "Bip001 L Thigh",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -0.628105,
+                    -0.317504,
+                    1.153569
+                ],
+                "Rotation": [
+                    0.270843,
+                    0.955050,
+                    0.043753,
+                    -0.112290
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 74,
+                        "ResourceName": "Bip001 L Thigh"
+                    }
+                ]
+            },
+            {
+                "UID": 1852503999,
+                "ParentUID": 1345963164,
+                "Name": "Bip001 L Calf",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    2.656434,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.329094,
+                    0.944297
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 75,
+                        "ResourceName": "Bip001 L Calf"
+                    }
+                ]
+            },
+            {
+                "UID": 1755526500,
+                "ParentUID": 1852503999,
+                "Name": "Bip001 L Foot",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    3.316416,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0.137424,
+                    -0.150500,
+                    0.196026,
+                    0.959186
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 76,
+                        "ResourceName": "Bip001 L Foot"
+                    }
+                ]
+            },
+            {
+                "UID": 1773654789,
+                "ParentUID": 1755526500,
+                "Name": "Bip001 L Toe0",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.806603,
+                    1.325963,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0.000001,
+                    0.707107,
+                    0.707106
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 77,
+                        "ResourceName": "Bip001 L Toe0"
+                    }
+                ]
+            },
+            {
+                "UID": 1162878822,
+                "ParentUID": 379280677,
+                "Name": "Bip001 R Thigh",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    -0.628105,
+                    -0.317498,
+                    -1.153570
+                ],
+                "Rotation": [
+                    0.461757,
+                    0.862043,
+                    0.015327,
+                    0.208391
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 80,
+                        "ResourceName": "Bip001 R Thigh"
+                    }
+                ]
+            },
+            {
+                "UID": 652974562,
+                "ParentUID": 1162878822,
+                "Name": "Bip001 R Calf",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    2.656434,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    -0.461438,
+                    0.887172
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 81,
+                        "ResourceName": "Bip001 R Calf"
+                    }
+                ]
+            },
+            {
+                "UID": 660657659,
+                "ParentUID": 652974562,
+                "Name": "Bip001 R Foot",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    3.316417,
+                    0,
+                    0
+                ],
+                "Rotation": [
+                    -0.040511,
+                    0.140725,
+                    0.121334,
+                    0.981750
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 82,
+                        "ResourceName": "Bip001 R Foot"
+                    }
+                ]
+            },
+            {
+                "UID": 842125793,
+                "ParentUID": 660657659,
+                "Name": "Bip001 R Toe0",
+                "Active": true,
+                "Static": false,
+                "Selected": false,
+                "OpenInHierarchy": false,
+                "Translation": [
+                    0.806603,
+                    1.325963,
+                    0
+                ],
+                "Rotation": [
+                    0,
+                    0,
+                    0.707107,
+                    0.707106
+                ],
+                "Scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "Components": [
+                    {
+                        "ComponentType": 1,
+                        "HasResource": false
+                    },
+                    {
+                        "ComponentType": 6,
+                        "HasResource": true,
+                        "Type": 4,
+                        "ID": 83,
+                        "ResourceName": "Bip001 R Toe0"
+                    }
+                ]
+            }
+        ]
+    },
+    "Renderer": {},
+    "Resources": {},
+    "Importer": {},
+    "Materials": {},
+    "Meshes": {},
+    "AnimationImporter": {}
+} 

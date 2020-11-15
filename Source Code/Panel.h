@@ -5,7 +5,7 @@
 #include "Color.h"
 #include "Globals.h"
 #include <vector>
-
+#include <string>
 
 
 class Panel
